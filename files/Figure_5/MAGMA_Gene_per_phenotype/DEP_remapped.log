@@ -1,0 +1,63 @@
+Welcome to MAGMA v1.10 (win/s)
+Using flags:
+	--bfile C:\Users\MSC213\Downloads\g1000_eur\g1000_eur
+	--gene-annot C:\Users\MSC213\Downloads\ldsc_remap_magma\remapped_cCRE_to_genes_by_activity.genes.annot
+	--pval C:\Users\MSC213\Downloads\ldsc_remap_magma\DEP_sumstats.tsv ncol=N
+	--gene-model snp-wise=mean
+	--out C:\Users\MSC213\Downloads\ldsc_remap_magma\DEP_remapped
+
+Start time is 13:22:31, Monday 13 Feb 2023
+
+Loading PLINK-format data...
+Reading file C:\Users\MSC213\Downloads\g1000_eur\g1000_eur.fam... 503 individuals read
+Reading file C:\Users\MSC213\Downloads\g1000_eur\g1000_eur.bim... 22665064 SNPs read
+Preparing file C:\Users\MSC213\Downloads\g1000_eur\g1000_eur.bed... 
+
+Reading SNP synonyms from file C:\Users\MSC213\Downloads\g1000_eur\g1000_eur.synonyms (auto-detected)
+	read 6016767 mapped synonyms from file, mapping to 3921040 SNPs in the data
+	WARNING: detected 133 synonymous SNP pairs in the data
+	         skipped all synonym entries involved, synonymous SNPs are kept in analysis
+	         writing list of detected synonyms in data to supplementary log file
+Reading SNP p-values from file C:\Users\MSC213\Downloads\ldsc_remap_magma\DEP_sumstats.tsv... 
+	detected 6 variables in file
+	using variable: SNP (SNP id)
+	using variable: P (p-value)
+	using variable: N (sample size; discarding SNPs with N < 50)
+	read 9367356 lines from file, containing valid SNP p-values for 9366891 SNPs in data (100% of lines, 41.33% of SNPs in data)
+Loading gene annotation from file C:\Users\MSC213\Downloads\ldsc_remap_magma\remapped_cCRE_to_genes_by_activity.genes.annot... 
+	WARNING: on line 699, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC244669.2)
+	WARNING: on line 703, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC245014.3)
+	WARNING: on line 711, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC239799.2)
+	WARNING: on line 712, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = ANKRD34A)
+	WARNING: on line 713, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = TXNIP)
+	WARNING: on line 715, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = RNF115)
+	WARNING: on line 726, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC239859.4)
+	WARNING: on line 729, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC253572.1)
+	WARNING: on line 4850, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = CD24)
+	WARNING: on line 5756, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC245164.1)
+	WARNING: on line 6446, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = CNTNAP3P2)
+	WARNING: on line 6454, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AL591926.2)
+	WARNING: on line 7018, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AL356056.2)
+	WARNING: on line 7020, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = ZNF488)
+	WARNING: on line 7021, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = GDF10)
+	WARNING: on line 7035, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = NCOA4)
+	WARNING: on line 9595, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = CYFIP1)
+	WARNING: on line 9596, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = AC138649.1)
+	WARNING: on line 9597, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = WHAMMP3)
+	WARNING: on line 11066, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = PECAM1)
+	WARNING: on line 12308, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = FRG1EP)
+	WARNING: on line 12323, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = ANKRD20A21P)
+	WARNING: on line 12675, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = FP565260.1)
+	WARNING: on line 12676, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = GATD3B)
+	WARNING: on line 12677, invalid genomic location; gene stop position must be greater than start position; skipping gene (ID = FP565260.3)
+	12965 gene definitions read from file
+	found 11019 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file C:\Users\MSC213\Downloads\ldsc_remap_magma\DEP_remapped.genes.out.txt
+	writing intermediate output to file C:\Users\MSC213\Downloads\ldsc_remap_magma\DEP_remapped.genes.raw
+
+
+End time is 13:24:52, Monday 13 Feb 2023 (elapsed: 00:02:21)

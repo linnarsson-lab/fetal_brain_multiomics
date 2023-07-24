@@ -1,0 +1,1 @@
+cmd = /proj/DEV_ATAC/submission/class_comparison_accessibility_2/younger.bed hg38 /proj/DEV_ATAC/submission/class_comparison_accessibility_2/homer_results/younger -mcheck /home/camiel/chromograph/chromograph/references/human_TFs.motifs -p 6

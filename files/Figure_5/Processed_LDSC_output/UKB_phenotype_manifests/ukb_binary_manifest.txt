@@ -1,0 +1,36 @@
+trait_type	phecode	Domain	wget	filename	n_cases_EUR	n_controls_EUR
+continuous	random	Random	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/continuous-random-both_sexes.tsv.bgz	continuous-random-both_sexes.tsv.bgz	420531	0
+categorical	6150_100	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6150-both_sexes-100.tsv.bgz	categorical-6150-both_sexes-100.tsv.bgz	294811	124813.0
+categorical	6150_4	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6150-both_sexes-4.tsv.bgz	categorical-6150-both_sexes-4.tsv.bgz	113454	306170.0
+categorical	20002_1065	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1065.tsv.bgz	categorical-20002-both_sexes-1065.tsv.bgz	109307	311166.0
+phecode	401	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-401-both_sexes.tsv.bgz	phecode-401-both_sexes.tsv.bgz	94311	325488.0
+phecode	401_1	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-401.1-both_sexes.tsv.bgz	phecode-401.1-both_sexes.tsv.bgz	94062	325488.0
+phecode	306	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-306-both_sexes.tsv.bgz	phecode-306-both_sexes.tsv.bgz	39711	369930.0
+phecode	411	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411-both_sexes.tsv.bgz	phecode-411-both_sexes.tsv.bgz	37672	382052.0
+phecode	418	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-418-both_sexes.tsv.bgz	phecode-418-both_sexes.tsv.bgz	33293	384496.0
+phecode	411_8	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411.8-both_sexes.tsv.bgz	phecode-411.8-both_sexes.tsv.bgz	31198	382052.0
+categorical	20002_1286	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1286.tsv.bgz	categorical-20002-both_sexes-1286.tsv.bgz	24071	396402.0
+phecode	411_4	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411.4-both_sexes.tsv.bgz	phecode-411.4-both_sexes.tsv.bgz	23888	382052.0
+phecode	411_3	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411.3-both_sexes.tsv.bgz	phecode-411.3-both_sexes.tsv.bgz	21352	382052.0
+categorical	20544_15	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20544-both_sexes-15.tsv.bgz	categorical-20544-both_sexes-15.tsv.bgz	19338	116659.0
+phecode	317	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-317-both_sexes.tsv.bgz	phecode-317-both_sexes.tsv.bgz	16070	392046.0
+phecode	411_2	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411.2-both_sexes.tsv.bgz	phecode-411.2-both_sexes.tsv.bgz	15065	382052.0
+phecode	318	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-318-both_sexes.tsv.bgz	phecode-318-both_sexes.tsv.bgz	14988	392046.0
+categorical	6150_2	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6150-both_sexes-2.tsv.bgz	categorical-6150-both_sexes-2.tsv.bgz	13411	406213.0
+categorical	20002_1074	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1074.tsv.bgz	categorical-20002-both_sexes-1074.tsv.bgz	13408	407065.0
+phecode	300	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-300-both_sexes.tsv.bgz	phecode-300-both_sexes.tsv.bgz	10449	369930.0
+categorical	6150_1	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6150-both_sexes-1.tsv.bgz	categorical-6150-both_sexes-1.tsv.bgz	9813	409811.0
+categorical	20002_1075	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1075.tsv.bgz	categorical-20002-both_sexes-1075.tsv.bgz	9743	410730.0
+phecode	300_1	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-300.1-both_sexes.tsv.bgz	phecode-300.1-both_sexes.tsv.bgz	9705	369930.0
+phecode	327	Neurological disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-327-both_sexes.tsv.bgz	phecode-327-both_sexes.tsv.bgz	6623	413908.0
+phecode	411_1	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411.1-both_sexes.tsv.bgz	phecode-411.1-both_sexes.tsv.bgz	5652	382052.0
+phecode	327_3	Neurological disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-327.3-both_sexes.tsv.bgz	phecode-327.3-both_sexes.tsv.bgz	5621	413908.0
+phecode	427	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-427-both_sexes.tsv.bgz	phecode-427-both_sexes.tsv.bgz	31341	384657.0
+categorical	20002_1387	Immune/blood related disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1387.tsv.bgz	categorical-20002-both_sexes-1387.tsv.bgz	23835	396638.0
+phecode	427_2	Cardiovascular disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-427.2-both_sexes.tsv.bgz	phecode-427.2-both_sexes.tsv.bgz	19233	384657.0
+phecode	172	Skin/connective tissue disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-172-both_sexes.tsv.bgz	phecode-172-both_sexes.tsv.bgz	17691	402691.0
+phecode	351	Neurological disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-351-both_sexes.tsv.bgz	phecode-351-both_sexes.tsv.bgz	14648	399339.0
+phecode	172_2	Skin/connective tissue disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-172.2-both_sexes.tsv.bgz	phecode-172.2-both_sexes.tsv.bgz	14453	402691.0
+categorical	20002_1265	Neurological disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20002-both_sexes-1265.tsv.bgz	categorical-20002-both_sexes-1265.tsv.bgz	12423	408050.0
+categorical	20544_6	Psychiatric disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20544-both_sexes-6.tsv.bgz	categorical-20544-both_sexes-6.tsv.bgz	7541	128422.0
+categorical	20001_1061	Skin/connective tissue disorder	wget https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20001-both_sexes-1061.tsv.bgz	categorical-20001-both_sexes-1061.tsv.bgz	3947	416526.0

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fetalxbrainxmultiomics.egg-info/PKG-INFO
+fetalxbrainxmultiomics.egg-info/SOURCES.txt
+fetalxbrainxmultiomics.egg-info/dependency_links.txt
+fetalxbrainxmultiomics.egg-info/requires.txt
+fetalxbrainxmultiomics.egg-info/top_level.txt

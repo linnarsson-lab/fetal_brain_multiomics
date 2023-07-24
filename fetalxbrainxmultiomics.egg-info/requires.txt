@@ -1,0 +1,10 @@
+loompy
+numpy
+scikit-learn
+deeplift
+twobitreader
+captum
+scipy
+statsmodels
+torch
+pybedtools

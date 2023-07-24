@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fetalxbrainxmultiomics
+Version: 0.0.1
+Summary: Notebooks and data accompanying the 'Dynamics of chromatin accessibility during human first-trimester neurodevelopment' paper
+Home-page: https://github.com/linnarsson-lab/fetal_brain_multiomics
+Author: Linnarsson Lab
+Author-email: camiel.mannens@ki.se
+License: MIT
+License-File: LICENSE

@@ -1,0 +1,1 @@
+cmd = regions_enr/Topic_18.bed hg38 homer/Topic_18 -mcheck /home/camiel/chromograph/chromograph/references/human_TFs.motifs -p 10

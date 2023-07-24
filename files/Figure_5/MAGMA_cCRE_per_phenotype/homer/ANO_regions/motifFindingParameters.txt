@@ -1,0 +1,1 @@
+cmd = /proj/DEV_ATAC/submission/GWAS_analysis/enriched_beds/ANO_regions.bed hg38 /proj/DEV_ATAC/submission/GWAS_analysis/homer/results/ANO_regions -mknown /home/camiel/chromograph/chromograph/references/human_TFs.motifs -p 6
