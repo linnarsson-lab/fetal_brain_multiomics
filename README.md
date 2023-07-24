@@ -1,7 +1,7 @@
 # fetal_brain_multiomics
 Dynamics of chromatin accessibility during human first-trimester neurodevelopment* (Camiel Mannens et al. 2023, in review).
 
--- Link to figure 1 --
+[fig1.pdf](https://github.com/linnarsson-lab/fetal_brain_multiomics/files/12143211/fig1.pdf)
 
 ## Preprint (bioRxiv)
 
