@@ -31,6 +31,13 @@
 
 [Purkinje_peaks.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_peaks.agg.loom)
 
+## Download 10X cellranger output (ATAC/ARC)
+To download the 10X output for individual samples use the command below, replacing {sample} with the sample you need. 
+A list of all the sample names can be found in [10X_output](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/10X_output_samples.txt), and the metadata providing region, name, sample ID etc can be found in [Extended data 1](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/supplementals/Extended_data_1_sample_data.xlsx)
+```
+wget https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/{sample}
+```
+
 ## Preprint (bioRxiv)
 
 [biorxiv](https://www.biorxiv.org/content/10.1101/2023.08.18.553878v1)
