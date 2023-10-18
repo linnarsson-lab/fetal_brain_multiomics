@@ -46,6 +46,7 @@ wget https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/10X/{sample}
 We use the [Chromograph](https://github.com/linnarsson-lab/chromograph) pipeline.
 
 Code for making many of the figures is available as [Jupyter notebooks](notebooks/README.md)
+The package versions used to generate these figures are in [this environment file](environment.yml)
 
 ### Genes and transcripts annotation
 
