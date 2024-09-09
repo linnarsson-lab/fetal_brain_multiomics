@@ -10,8 +10,11 @@ import torch
 from torch import nn
 from twobitreader import TwoBitFile
 from deeplift.dinuc_shuffle import dinuc_shuffle
+from captum.attr import DeepLiftShap
+from fetalxbrainxmultiomics.deepNeuron.model import ConvolutionalClassificationModel
 
 from tqdm import tqdm, trange
+
 
 def one_hot_encoder(enhancers, enhancer_length, f_bit):
     hg38 = TwoBitFile(f_bit)
@@ -45,9 +48,9 @@ def combine_mult_and_diffref(mult, orig_inp, bg_data):
     mult = mult.T
     orig_inp = orig_inp.T
     bg_data = bg_data.T
+
     for l in range(len(mult)):
         projected_hypothetical_contribs = np.zeros((4,4)).astype("float")
-        assert len(orig_inp[l].shape)==2, orig_inp[l].shape
         for i in range(4):
             hypothetical_input = np.zeros(4).astype("float")
             hypothetical_input[i] = 1.0
@@ -57,19 +60,31 @@ def combine_mult_and_diffref(mult, orig_inp, bg_data):
         to_return.append(np.mean(projected_hypothetical_contribs,axis=0))
     return np.array(to_return).T
 
-def compute_contrib(cfname, pred_sequences):
-    model = deepGBM.ConvolutionalClassificationModel.load_from_checkpoint(cfname, map_location=torch.device('cpu'))
-    model.eval()
+def compute_contrib(model, pred_sequences, true_labels):
     explainer = DeepLiftShap(model)
 
     contrib_scores= []
     norm_scores = []
     for i in trange(len(pred_sequences)):
         onehot_data = pred_sequences[i].numpy()
-        explanations = explainer.attribute(torch.tensor(onehot_data[None, :, :]), shuffle_several_times(onehot_data), target=1).detach().numpy()[0]
+        explanations = explainer.attribute(torch.tensor(onehot_data[None, :, :]), shuffle_several_times(onehot_data), target=int(true_labels[i])).detach().numpy()[0]
         dinuc_shuff_explanation = np.sum(explanations, axis=0) * onehot_data
         norm = dinuc_shuff_explanation - np.mean(dinuc_shuff_explanation,axis=0)[np.newaxis,:]
         contrib_scores.append(dinuc_shuff_explanation)
         norm_scores.append(norm)
         
     return contrib_scores, norm_scores
+
+def compute_hypo_contrib(model, pred_sequences, true_labels):
+    explainer = DeepLiftShap(model)
+
+    hypos = []
+    for i in trange(len(pred_sequences)):
+        onehot_data = pred_sequences[i].numpy()
+        bg_data = shuffle_several_times(onehot_data)
+        mult = explainer.attribute(torch.tensor(onehot_data[None, :, :]), bg_data, target=int(true_labels[i])).detach().numpy()[0]
+
+        hypos.append(combine_mult_and_diffref(mult, onehot_data, np.mean(bg_data.numpy(),axis=0)))
+        bg_data = np.mean(shuffle_several_times(onehot_data).numpy(),axis=0)
+
+    return hypos
