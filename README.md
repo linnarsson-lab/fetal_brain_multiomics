@@ -1,5 +1,5 @@
 # fetal_brain_multiomics
-*Dynamics of chromatin accessibility during human first-trimester neurodevelopment* (Camiel Mannens et al. 2023, in review).
+[Mannens, C.C.A., Hu, L., Lönnerberg, P. et al. Chromatin accessibility during human first-trimester neurodevelopment. Nature (2024). https://doi.org/10.1038/s41586-024-07234-1](https://www.nature.com/articles/s41586-024-07234-1)
 
 ![fig1.pdf](https://github.com/linnarsson-lab/fetal_brain_multiomics/files/12143211/fig1.pdf)
 
@@ -37,9 +37,6 @@ A list of all the sample names can be found in [10X_output](https://github.com/l
 ```
 wget https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/10X/{sample}
 ```
-
-## Publication
-[Mannens, C.C.A., Hu, L., Lönnerberg, P. et al. Chromatin accessibility during human first-trimester neurodevelopment. Nature (2024). https://doi.org/10.1038/s41586-024-07234-1](https://www.nature.com/articles/s41586-024-07234-1)
 
 ## Preprint (bioRxiv)
 
