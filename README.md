@@ -80,6 +80,10 @@ The `.agg` files are aggregate files where each column represents a cluster in t
 - '': Base layer contains binarized counts
 - 'Counts': Counts per peak
 
+## Cellranger-arc outputs
+
+Available [here](https://www.dropbox.com/scl/fo/1ummj0m1ya2bu645mv9nl/AP_KCviN53gEa-SoiFCDVnE?rlkey=ypol98tifeho01541n8rz3mm3&st=an8e4h4i&dl=0).
+
 ## Raw sequence data
 
 Raw sequencing data are available through from the European Genome Phenome Archive [EGAS00001007472](https://ega-archive.org/studies/EGAS00001007472).
